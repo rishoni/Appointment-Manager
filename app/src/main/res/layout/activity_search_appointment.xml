@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/pic_10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/mainHead"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/lbl"
+        android:text="Search Appointment"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/subHead"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Enter a keyword and search appointments"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/searchKeyWord"
+        android:layout_width="250dp"
+        android:layout_marginLeft="60dp"
+        android:layout_height="50dp">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/btn"
+        android:text="Search"
+        android:textAllCaps="false"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+           ></ListView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

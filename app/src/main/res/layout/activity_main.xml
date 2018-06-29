@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_7"
+    android:orientation="vertical"
+    android:weightSum="1"
+
+    tools:context="com.example.asus.myapplication.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Day Planner"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="117dp"
+
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="45dp"
+
+        android:background="@drawable/bg_calander"
+        android:weightSum="1">
+
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            style="@android:style/Widget.DeviceDefault.Light.CalendarView"
+            android:layout_width="match_parent"
+android:layout_marginRight="1dp"
+
+            android:layout_height="300dp">
+
+
+        </CalendarView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createAppoint"
+        android:layout_width="201dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:fontFamily="cursive"
+        android:text="Create Appointment"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/view_editAppoint"
+        android:layout_width="202dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn"
+        android:fontFamily="cursive"
+        android:textAllCaps="false"
+        android:text="View/Edit Appointments"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:id="@+id/delAppoint"
+        android:layout_width="202dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn"
+        android:fontFamily="cursive"
+        android:text="Delete Appointment"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:id="@+id/moveAppoint"
+        android:layout_width="199dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn"
+        android:fontFamily="cursive"
+        android:text="Move Appointment"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/searchAppoint"
+        android:layout_width="199dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn"
+        android:fontFamily="cursive"
+        android:text="Search Appointment"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+</LinearLayout>

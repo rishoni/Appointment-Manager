@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editpopup"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_8"
+android:layout_gravity="center"
+
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.02"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:background="@drawable/lbl"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Edit Appointment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/new_appoinment"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="0.01">
+
+
+        <TextView
+            android:id="@+id/editTitle"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+
+            android:gravity="center"
+            android:text="Title of the Appointment"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="12dp"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editTitleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="Time of the Event"
+            android:textColor="@color/black"
+
+
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editTimeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="Details of the Event"
+            android:textColor="@color/black"
+
+
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editDetailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/editBtn"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/btn"
+        android:textAllCaps="false"
+        android:text="Edit" />
+
+</LinearLayout>

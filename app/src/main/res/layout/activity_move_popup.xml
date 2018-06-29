@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/movepopup"
+    android:background="@drawable/pic_11"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="40dp"
+
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="16dp"
+
+        android:gravity="center"
+        android:text="Move Appointment"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_weight="0.01" />
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="45dp"
+
+        android:background="@drawable/bg_calander"
+        android:weightSum="1">
+
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            style="@android:style/Widget.DeviceDefault.Light.CalendarView"
+            android:layout_width="match_parent"
+            android:layout_marginRight="1dp"
+
+            android:layout_height="300dp">
+
+
+        </CalendarView>
+
+    </LinearLayout>
+
+
+<Button
+    android:id="@+id/moveBtn"
+    android:layout_width="100dp"
+    android:background="@drawable/btn"
+    android:layout_height="50dp"
+    android:layout_marginTop="34dp"
+    android:text="Move"
+    android:layout_marginLeft="135dp"/>
+
+
+
+
+
+</LinearLayout>

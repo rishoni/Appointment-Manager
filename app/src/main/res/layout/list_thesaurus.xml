@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/pic_10"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="172dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Synonyms"
+        android:background="@drawable/lbl"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/synonymListView"
+        android:layout_width="match_parent"
+        android:layout_height="387dp"
+        android:background="@color/white"
+        android:layout_marginTop="100dp" />
+
+</LinearLayout>

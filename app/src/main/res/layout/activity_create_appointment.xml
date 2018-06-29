@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/pic_8"
+android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+ android:textColor="@color/colorPrimary"
+android:fontFamily="cursive"
+        android:background="@drawable/lbl"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="53dp"
+        android:text="Create Appointment" />
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="262dp"
+        android:layout_marginTop="60dp"
+
+android:background="@drawable/new_appoinment"
+android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+
+            android:gravity="center"
+            android:text="Title of the Appointment"
+            android:textColor="@color/black"
+
+android:layout_marginTop="12dp"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/titleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="Time of the Event"
+            android:textColor="@color/black"
+
+
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/timeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="Details of the Event"
+            android:textColor="@color/black"
+
+
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ThesaurusBtn"
+            android:layout_width="90dp"
+            android:text="Thesaurus"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/btn"
+            android:layout_marginLeft="120dp"
+            android:layout_height="25dp" />
+
+
+
+        <EditText
+            android:id="@+id/detailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="115dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn"
+        android:text="Save" />
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:layout_width="300dp"
+        android:textSize="18dp"
+        android:text="Find the synonym for the word"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@drawable/lbl"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="349dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.02" />
+
+    <Button
+        android:id="@+id/findThesaurus"
+        android:layout_width="115dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn"
+        android:text="findThesaurus"
+        android:textAllCaps="false" />
+
+</LinearLayout>

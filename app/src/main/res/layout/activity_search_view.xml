@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/pic_7"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="148dp"
+    android:layout_height="37dp"
+    android:layout_marginLeft="120dp"
+    android:text="Appointmennt"
+    android:layout_marginTop="20dp"
+    android:textColor="@color/black"
+    android:textSize="20dp"
+    android:background="@drawable/lbl"
+    android:gravity="center"
+    android:layout_marginRight="50dp"
+    android:layout_weight="0.00" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="200dp"
+
+        android:background="@drawable/new_appoinment"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="0.10">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+
+            android:gravity="center"
+            android:text="Title of the Appointment"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="12dp"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="Time of the Event"
+            android:textColor="@color/black"
+
+
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/timeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="Details of the Event"
+            android:textColor="@color/black"
+
+
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/detailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
